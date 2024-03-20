@@ -239,7 +239,8 @@ public class WordSearch {
         wordC = 0;
         words = new ArrayList<>();
         System.out.println("");
-        System.out.println("Please enter the words for your puzzle with only one word per line.");
+        System.out.println("Please enter the words for your" +
+        "puzzle with only one word per line.");
         System.out.println("When you have entered your words type: run");
         System.out.println("");
         while (scan.hasNextLine()) {
